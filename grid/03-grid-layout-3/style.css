@@ -3,6 +3,13 @@
   padding: 0;
 }
 
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 .container {
   text-align: center;
   display: grid;
@@ -36,9 +43,6 @@
 .menu ul,
 .menu li {
   font-size: 16px;
-  list-style: none;
-  margin: 0;
-  padding: 0;
 }
 
 .menu > ul {
@@ -77,6 +81,11 @@
 
 .nav {
   background-color: #C50208;
+}
+
+.nav > ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .nav ul li {
